@@ -1,5 +1,6 @@
 body{
-	background-color: wheat;
+	background-color: black;
+	color: chocolate;
 	text-align: center;
 }
 /* Add a background color to the top navigation */
@@ -9,7 +10,7 @@ body{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	border: 3px solid green;
+	border: 3px solid orange;
 	width: 50%;
 }
 
@@ -21,7 +22,7 @@ body{
 
 #menu a {
 	display: block;
-	color: black;
+	color: yellow;
 	padding: 15px;
 }
   
@@ -34,4 +35,17 @@ body{
 #menu a.active {
 	background-color: #4CAF50;
 	color: white;
+}
+
+#fname{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#subject{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height:200px;
 }
