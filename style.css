@@ -41,11 +41,17 @@ h1{
 	color: white;
 }
 
-#ans li{
+#diff li{
 	text-align: right;
-	direction: rtl; 
-	list-style-type: disc;
+	direction: rtl;
 }
+
+#use-case{
+	text-align: right;
+	direction: rtl;
+}
+
+
 
 #email{
 	display: block;
