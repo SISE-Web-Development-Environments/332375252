@@ -1,7 +1,11 @@
 body{
 	background-color: black;
-	color: chocolate;
+	color: lightcoral;
 	text-align: center;
+}
+
+h1{
+	color: chocolate;
 }
 /* Add a background color to the top navigation */
 #menu {
@@ -37,15 +41,21 @@ body{
 	color: white;
 }
 
-#fname{
+#ans li{
+	text-align: right;
+	direction: rtl; 
+	list-style-type: disc;
+}
+
+#email{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#subject{
+#message{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	height:200px;
+	height: 200px;
 }
